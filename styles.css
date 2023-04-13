@@ -44,6 +44,7 @@ body {
     font-weight: 400;
     letter-spacing: 5px;
     text-shadow: 4px black;
+    
 }
 
 .heading-primary-sub {
@@ -57,26 +58,21 @@ body {
 .btn:visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 40px;
     display: inline-block;
     border-radius: 100px;
     transition: all .2s;
     position: relative;
 }
-
+/* HOVER transform uste geldigimizde oynatmak icin */
 .btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.btn:active {
-    transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-9px); 
+    box-shadow: 0 100px 20px rgba(17, 16, 16, 0.2);
 }
 
 .btn-white {
-    background-color: #fff;
-    color: #777;
+    background-color: rgb(243, 243, 243);
+    color: rgb(116, 113, 113);
     font-size: 15px;
 }
 
@@ -198,4 +194,7 @@ h2 {
 
 .a:hover {
     color: rgba(57, 4, 68, 0.925);
+  
 }
+
+
